@@ -44,6 +44,6 @@ Your own styles should go in the ``_custom.scss`` partial. You can use all the b
 If you need to tweak some templates - copy them over from the bootstrap parent theme. Place them into the templates folder.
 
 ##Contributing
-PR are welcome and appriciated - if you are unsure or have any questions get in touch or let us know on [Twitter](http://www.twitter/Arrow_UK).
+PR are welcome and appriciated - if you are unsure or have any questions get in touch or let us know on [Twitter](http://www.twitter.com/Arrow_UK).
 
 Built by [Arrow](http://www.arrowdesign.co.uk/)
