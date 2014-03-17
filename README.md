@@ -16,9 +16,11 @@ Either use drush to download the boostrap theme:
 
 Or manually download and add to ``sites/all/themes`` (or your current site themes folder).
 
-Download this basetheme and add to your themes folder, renaming the folder to your theme name.
+Download this basetheme and add to your themes folder.
 
-Rename ``drupal-bootstrap-base.info.starterkit`` ``your-theme-name.info``
+Rename the folder to ``you-theme-name``
+
+Rename ``drupal-bootstrap-base.info.starterkit`` to ``your-theme-name.info``
 
 In ``config.rb`` change the http_path to path to your theme. This is the URL visitors use to access your theme. e.g. a standard URL would be ``/sites/default/themes/my-theme/``
 
@@ -32,6 +34,8 @@ Or you can watch for chanages with
 
 ``compass watch``
 
+You can now enable the theme in Drupal.
+
 ##Customising the theme
 Your first port of call should be the ``_variables.scss`` partial. These are all the variables used by bootstrap. To change something, just uncomment the variable and change to your value.
 
@@ -41,3 +45,5 @@ If you need to tweak some templates - copy them over from the bootstrap parent t
 
 ##Contributing
 PR are welcome and appriciated - if you are unsure or have any questions get in touch or let us know on [Twitter](http://www.twitter/Arrow_UK).
+
+Built by [Arrow](http://www.arrowdesign.co.uk/)
